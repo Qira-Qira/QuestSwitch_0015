@@ -24,13 +24,16 @@ public class Nilai {
 
 
         String predikat;
-        if(ipk >= 3.75){
+        
+        if(ipk > 4.00 || ipk < 0){
+           predikat = "Masukkan nilai matkul dengan benar";
+        }else if(ipk >= 3.75 && ipk < 4.01){
             predikat = "A (Sangat Baik)";
-        }else if(ipk >= 3.50 && ipk <= 3.74){
-            predikat = "AB (Baik Sekali)";
-        }else if(ipk >= 3.00 && ipk <= 3.49){
+        }else if(ipk >= 3.50 && ipk < 3.75){
+            predikat = "AB (Baik Baik)";
+        }else if(ipk >= 3.00 && ipk < 3.50){
             predikat = "B (Baik)";
-        }else if(ipk >= 2.50 && ipk <= 2.99){
+        }else if(ipk >= 2.50 && ipk < 3.00){
             predikat = "BC (Cukup)";
         }else{
             predikat = "C (Kurang)";
@@ -93,7 +96,7 @@ public class Nilai {
                     break;
             }
         }else{
-            System.out.println("Mahasiswa Belum Memenuhi  Syarat");
+            System.out.println("\nMahasiswa Belum Memenuhi  Syarat");
         }
         
     }
