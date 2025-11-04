@@ -39,6 +39,12 @@ public class Nilai {
         System.out.println("\nHasil Nilai\n");
         System.out.println("IPK: " + ipk );
         System.out.println("Predikat: " + predikat);
+
+        if(predikat.equals("A (Sangat Baik)") || predikat.equals("AB (Baik Sekali)")){
+
+        }else{
+
+        }
         
     }
 }
