@@ -48,7 +48,7 @@ public class Nilai {
             System.out.println("4. Algoritma dan Pemrograman");
             System.out.println("5. Rekayasa Perangkat Lunak");
         }else{
-
+            System.out.println("Mahasiswa Belum Memenuhi  Syarat");
         }
         
     }
