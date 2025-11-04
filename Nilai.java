@@ -23,5 +23,18 @@ public class Nilai {
         double ipk = (rataRata / 100) * 4;
 
 
+        String predikat;
+        if(ipk >= 3.75){
+            predikat = "A";
+        }else if(ipk >= 3.50 && ipk <= 3.74){
+            predikat = "AB";
+        }else if(ipk >= 3.00 && ipk <= 3.49){
+            predikat = "B";
+        }else if(ipk >= 2.50 && ipk <= 2.99){
+            predikat = "BC";
+        }else{
+            predikat = "C";
+        }
+        
     }
 }
