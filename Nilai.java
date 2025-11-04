@@ -98,6 +98,8 @@ public class Nilai {
         }else{
             System.out.println("\nMahasiswa Belum Memenuhi  Syarat");
         }
+
+        sc.close();
         
     }
 }
