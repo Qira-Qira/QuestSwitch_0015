@@ -7,6 +7,18 @@ public class Nilai {
         double strukturD,pbo,basisD,algoritma,rpl;
 
 
+        System.out.print("Masukkan Nilai Struktur Data: ");
+        strukturD = sc.nextDouble();
+        System.out.print("Masukkan Nilai Pemrograman Beroirentasi Objek: ");
+        pbo = sc.nextDouble();
+        System.out.print("Masukkan Nilai Basis Data: ");
+        basisD = sc.nextDouble();
+        System.out.print("Masukkan Nilai Algoritma dan Pemrograman: ");
+        algoritma = sc.nextDouble();
+        System.out.print("Masukkan Nilai Rekayasa Perangkat: ");
+        rpl = sc.nextDouble();
+
+
 
     }
 }
