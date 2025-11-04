@@ -9,7 +9,7 @@ public class Nilai {
 
         System.out.print("Masukkan Nilai Struktur Data: ");
         strukturD = sc.nextDouble();
-        System.out.print("Masukkan Nilai Pemrograman Beroirentasi Objek: ");
+        System.out.print("Masukkan Nilai Pemrograman Berorientasi Objek: ");
         pbo = sc.nextDouble();
         System.out.print("Masukkan Nilai Basis Data: ");
         basisD = sc.nextDouble();
@@ -59,35 +59,35 @@ public class Nilai {
                     if(strukturD >= 75){
                         System.out.println("Selamat, Mahasiswa eligible untuk menjadi Asisten Dosen");
                     }else{
-                        System.out.println("Mahasiswa Belum memnuhi syarat untuk posisi tersebut");
+                        System.out.println("Mahasiswa Belum memenuhi syarat untuk posisi tersebut");
                     }
                     break;
                 case 2:
                     if(pbo >= 75){
                         System.out.println("Selamat, Mahasiswa eligible untuk menjadi Asisten Dosen");
                     }else{
-                        System.out.println("Mahasiswa Belum memnuhi syarat untuk posisi tersebut");
+                        System.out.println("Mahasiswa Belum memenuhi syarat untuk posisi tersebut");
                     }
                     break;
                 case 3:
                     if(basisD >= 75){
                         System.out.println("Selamat, Mahasiswa eligible untuk menjadi Asisten Dosen");
                     }else{
-                        System.out.println("Mahasiswa Belum memnuhi syarat untuk posisi tersebut");
+                        System.out.println("Mahasiswa Belum memenuhi syarat untuk posisi tersebut");
                     }
                     break;
                 case 4:
                     if(algoritma >= 75){
                         System.out.println("Selamat, Mahasiswa eligible untuk menjadi Asisten Dosen");
                     }else{
-                        System.out.println("Mahasiswa Belum memnuhi syarat untuk posisi tersebut");
+                        System.out.println("Mahasiswa Belum memenuhi syarat untuk posisi tersebut");
                     }
                     break;
                 case 5:
                     if(rpl >= 75){
                         System.out.println("Selamat, Mahasiswa eligible untuk menjadi Asisten Dosen");
                     }else{
-                        System.out.println("Mahasiswa Belum memnuhi syarat untuk posisi tersebut");
+                        System.out.println("Mahasiswa Belum memenuhi syarat untuk posisi tersebut");
                     }
                     break;
 
