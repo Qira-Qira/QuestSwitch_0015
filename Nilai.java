@@ -19,6 +19,9 @@ public class Nilai {
         rpl = sc.nextDouble();
 
 
+        double rataRata = (strukturD + pbo + basisD + algoritma + rpl) / 5;
+        double ipk = (rataRata / 100) * 4;
+
 
     }
 }
