@@ -51,6 +51,47 @@ public class Nilai {
             System.out.print("\nPilih Mata Kuliah Yang memiliki nilai minimal 75: ");
             int pilihan = sc.nextInt();
 
+            switch(pilihan){
+                case 1:
+                    if(strukturD >= 75){
+                        System.out.println("Selamat, Mahasiswa eligible untuk menjadi Asisten Dosen");
+                    }else{
+                        System.out.println("Mahasiswa Belum memnuhi syarat untuk posisi tersebut");
+                    }
+                    break;
+                case 2:
+                    if(pbo >= 75){
+                        System.out.println("Selamat, Mahasiswa eligible untuk menjadi Asisten Dosen");
+                    }else{
+                        System.out.println("Mahasiswa Belum memnuhi syarat untuk posisi tersebut");
+                    }
+                    break;
+                case 3:
+                    if(basisD >= 75){
+                        System.out.println("Selamat, Mahasiswa eligible untuk menjadi Asisten Dosen");
+                    }else{
+                        System.out.println("Mahasiswa Belum memnuhi syarat untuk posisi tersebut");
+                    }
+                    break;
+                case 4:
+                    if(algoritma >= 75){
+                        System.out.println("Selamat, Mahasiswa eligible untuk menjadi Asisten Dosen");
+                    }else{
+                        System.out.println("Mahasiswa Belum memnuhi syarat untuk posisi tersebut");
+                    }
+                    break;
+                case 5:
+                    if(rpl >= 75){
+                        System.out.println("Selamat, Mahasiswa eligible untuk menjadi Asisten Dosen");
+                    }else{
+                        System.out.println("Mahasiswa Belum memnuhi syarat untuk posisi tersebut");
+                    }
+                    break;
+
+                default:
+                    System.out.println("Pilih Mata Kuliah Mulai dari 1 hingga 5");
+                    break;
+            }
         }else{
             System.out.println("Mahasiswa Belum Memenuhi  Syarat");
         }
