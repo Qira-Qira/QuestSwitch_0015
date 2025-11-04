@@ -30,7 +30,7 @@ public class Nilai {
         }else if(ipk >= 3.75 && ipk < 4.01){
             predikat = "A (Sangat Baik)";
         }else if(ipk >= 3.50 && ipk < 3.75){
-            predikat = "AB (Baik Baik)";
+            predikat = "AB (Baik Sekali)";
         }else if(ipk >= 3.00 && ipk < 3.50){
             predikat = "B (Baik)";
         }else if(ipk >= 2.50 && ipk < 3.00){
