@@ -4,5 +4,9 @@ public class Nilai {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
+        double strukturD,pbo,basisD,algoritma,rpl;
+
+
+
     }
 }
