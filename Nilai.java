@@ -25,16 +25,20 @@ public class Nilai {
 
         String predikat;
         if(ipk >= 3.75){
-            predikat = "A";
+            predikat = "A (Sangat Baik)";
         }else if(ipk >= 3.50 && ipk <= 3.74){
-            predikat = "AB";
+            predikat = "AB (Baik Sekali)";
         }else if(ipk >= 3.00 && ipk <= 3.49){
-            predikat = "B";
+            predikat = "B (Baik)";
         }else if(ipk >= 2.50 && ipk <= 2.99){
-            predikat = "BC";
+            predikat = "BC (Cukup)";
         }else{
-            predikat = "C";
+            predikat = "C (Kurang)";
         }
+
+        System.out.println("\nHasil Nilai\n");
+        System.out.println("IPK: " + ipk );
+        System.out.println("Predikat: " + predikat);
         
     }
 }
