@@ -25,15 +25,15 @@ public class Nilai {
 
         String predikat;
         
-        if(ipk > 4.00 || ipk < 0){
+        if(ipk < 0 || ipk > 4.00){
            predikat = "Masukkan nilai matkul dengan benar";
-        }else if(ipk >= 3.75 && ipk < 4.01){
+        }else if(ipk >= 3.75){
             predikat = "A (Sangat Baik)";
-        }else if(ipk >= 3.50 && ipk < 3.75){
+        }else if(ipk >= 3.50){
             predikat = "AB (Baik Sekali)";
-        }else if(ipk >= 3.00 && ipk < 3.50){
+        }else if(ipk >= 3.00){
             predikat = "B (Baik)";
-        }else if(ipk >= 2.50 && ipk < 3.00){
+        }else if(ipk >= 2.50){
             predikat = "BC (Cukup)";
         }else{
             predikat = "C (Kurang)";
